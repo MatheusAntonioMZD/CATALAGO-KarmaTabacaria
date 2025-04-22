@@ -5,11 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-:root {
-    --cor-principal: #ff0000;
-    --cor-principal-hover: #cc0000;
-}
-
 body {
     background-color: #f5f5f5;
     color: #333;
@@ -19,7 +14,7 @@ body {
 }
 
 header {
-    background-color: var(--cor-principal);
+    background-color: #1a1a1a;
     color: white;
     padding: 1rem 0;
     width: 100%;
@@ -54,8 +49,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: white;
-    background-color: var(--cor-principal-hover);
+    color: #ff0000;
 }
 
 main {
@@ -69,8 +63,8 @@ main {
 .hero {
     text-align: center;
     padding: 4rem 0;
-    background-color: #1a1a1a;
-    color: white;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
     margin-bottom: 2rem;
 }
 
@@ -133,8 +127,13 @@ main {
 
 .produto-preco {
     font-size: 1.2rem;
-    color: var(--cor-principal);
+    color: #ff0000;
     font-weight: bold;
+}
+
+.produto-card a {
+    text-decoration: none;
+    color: inherit;
 }
 
 footer {
@@ -155,7 +154,7 @@ footer {
 
 .footer-section h3 {
     margin-bottom: 1rem;
-    color: var(--cor-principal);
+    color: #ff0000;
 }
 
 .social-links {
@@ -171,7 +170,7 @@ footer {
 }
 
 .social-links a:hover {
-    color: var(--cor-principal);
+    color: #ff0000;
 }
 
 .footer-bottom {
@@ -196,4 +195,9 @@ footer {
     .hero {
         padding: 2rem 0;
     }
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Altura do header para compensar o espaço */
 } 
