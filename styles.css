@@ -200,4 +200,115 @@ footer {
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px; /* Altura do header para compensar o espaço */
+}
+
+.colecoes {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.colecoes h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+    font-size: 2rem;
+}
+
+.colecoes-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.colecao-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+.colecao-card:hover {
+    transform: translateY(-5px);
+}
+
+.colecao-imagem {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.colecao-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.colecao-card:hover .colecao-imagem img {
+    transform: scale(1.05);
+}
+
+.colecao-info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.colecao-info h3 {
+    font-size: 1.2rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.colecao-info p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.colecao-btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.colecao-btn:hover {
+    background-color: #cc0000;
+}
+
+@media (max-width: 900px) {
+    .colecoes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .colecoes-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .colecao-card {
+        max-width: 280px;
+    }
 } 
+.voltar-btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 1rem;
+    transition: background-color 0.3s ease;
+}

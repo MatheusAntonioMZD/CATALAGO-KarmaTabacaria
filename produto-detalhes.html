@@ -23,6 +23,19 @@
     </header>
 
     <main class="produto-detalhes-container">
+        <a href="#" onclick="voltarOuRedirecionar()" class="voltar-btn">
+            <i class="fas fa-arrow-left"></i> Voltar
+          </a>
+          
+          <script>
+            function voltarOuRedirecionar() {
+              if (document.referrer !== "") {
+                history.back();
+              } else {
+                window.location.href = "index.html";
+              }
+            }
+          </script>
         <div class="produto-detalhes">
             <div class="produto-imagem-container">
                 <div class="produto-imagem-grande">

@@ -107,31 +107,241 @@ const produtos = [
         ],
         descricao: "Desfiador de Policarbonato Pequeno Sadhu, prático e durável.",
         especificacoes: ["Policarbonato", "Pequeno"]
+    },
+    {
+        id: 10,
+        nome: "Piteira Papelito Tropical Large",
+        preco: "R$ 7,00",
+        imagens: [
+            "https://images.tcdn.com.br/img/img_prod/1039722/piteira_papelito_tropical_large_c_50_uni_3105_1_e176f792abbeb5ef5c6f820e305d2a6d.jpg",
+            "https://images.tcdn.com.br/img/img_prod/1039722/piteira_papelito_tropical_large_c_50_uni_3105_2_4da8b404c0856ee9d93db6dcd7115d2a.jpg"
+        ],
+        descricao: "Desfiador de Policarbonato Pequeno Sadhu, prático e durável.",
+        especificacoes: ["Policarbonato", "Pequeno"]
+    },
+    {
+        id: 11,
+        nome: "Piteira de Vidro Simples 5cm",
+        preco: "R$ 7,00",
+        imagens: [
+            "https://strabeinc.com/cdn/shop/files/fe1c6061d40665c78b5de23853676a09.png?v=1738611189&width=713",
+            "https://strabeinc.com/cdn/shop/files/21d886964bfc324456d9568fb9e4e909.png?v=1738611189&width=713",
+            "https://strabeinc.com/cdn/shop/files/ee258bb29188d648a4899dba5f629b12.png?v=1738611189&width=713",
+        ],
+        descricao: "As piteiras de vidro simples de 5cm são fabricadas com borossilicato alemão, mantendo os rigorosos padrões de qualidade exclusiva.",
+        especificacoes: ["Alta resistência (calor e queda)", "Conforto excepcional","Redução de danos","Qualidade superior"]
+    },
+    {
+        id: 12,
+        nome: "Piteira de Vidro Simples 7cm",
+        preco: "R$ 7,00",
+        imagens: [
+           "https://strabeinc.com/cdn/shop/files/b273eb75594277cde7f5d99a79177663.png?v=1738611331&width=713",
+           "https://strabeinc.com/cdn/shop/files/f4883fb1ef4d7d9e95388394162c5e83.png?v=1738611331&width=713",
+           "https://strabeinc.com/cdn/shop/files/fde84047c127046b47de9667234adb32.png?v=1738611331&width=713",
+        ],
+        descricao: "As piteiras de vidro simples de 7cm são fabricadas com borossilicato alemão, mantendo os rigorosos padrões de qualidade exclusiva.",
+        especificacoes: ["Alta resistência (calor e queda)", "Conforto excepcional","Redução de danos","Qualidade superior"]
+    },
+    {
+        id: 13,
+        nome: "Piteira de Vidro com Esferas de Vidro",
+        preco: "R$ 7,00",
+        imagens: [
+          "https://strabeinc.com/cdn/shop/files/f84bfefea78fcde725a0cdf62e8dc6ea.png?v=1738609043&width=713",
+          "https://strabeinc.com/cdn/shop/files/7d45b52676ef14c833736e57bda05b62.png?v=1738609043&width=713",
+          "https://strabeinc.com/cdn/shop/files/e7401ed462f8f7c2083860afde7fccc9.png?v=1738609043&width=713",
+        ],
+        descricao: "Esta piteira de vidro vai revolucionar sua sessão e fumaça QUENTE, vai se tornar passado na sua vida! O design inovador com esferas de vidro aumenta a superfície de contato com a fumaça, proporcionando uma redução significativa de danos e uma experiência mais suave.",
+        especificacoes: ["Alta resistência (calor e queda)", "Conforto excepcional","Redução de danos","Qualidade superior"]
+    },
+    {
+        id: 14,
+        nome: "Piteira de Vidro Extra Longa",
+        preco: "R$ 7,00",
+        imagens: [
+            "https://strabeinc.com/cdn/shop/files/c92f5ca60e0aa2811a9c37be82999834.png?v=1738609247&width=713",
+            "https://strabeinc.com/cdn/shop/files/de761a040c42bf998c4b387f3b29d61f.png?v=1738609247&width=713",
+            "https://strabeinc.com/cdn/shop/files/092fd282058a3f727cf0a934bbb52302.png?v=1738609247&width=713",
+            "https://strabeinc.com/cdn/shop/files/176b663e58ba21a13770ef9c425ef6f6.png?v=1738609247&width=713",
+        ],
+        descricao: "Com corpo alongado, as XXL são grandes aliadas a redução de danos, a fumaç4 percorre um caminho muito mais longo ate você, devido ao aumento da superfície de contato a fumaça é resfriada com mais eficácia e ao corpo aderem mais resíduos te dando uma onda muito mais limpa e saudável, além de trazer muita elegância na hora da sessão.",
+        especificacoes: ["Alta resistência (calor e queda)", "Conforto excepcional","Redução de danos","Qualidade superior"]
+    },
+    {
+        id: 15,
+        nome: "Piteira de Vidro Bocal Implosion",
+        preco: "R$ 7,00",
+        imagens: [
+            "https://strabeinc.com/cdn/shop/files/7f75e6e42fb2be9345793b7f9aedffaa.png?v=1741969158&width=713",
+            "https://strabeinc.com/cdn/shop/files/147cfc3002bb415a2eed6e19964e3856.png?v=1741969158&width=713",
+            "https://strabeinc.com/cdn/shop/files/29b51e2cfc451f9cac969588ccbf2c0a.png?v=1741969158&width=713",
+        ],
+        descricao: "As piteiras de vidro Implosion além de ter um papel essencial na REDUÇÃO DE DANOS, vai trazer muito mais estilo para sua coleção de joias!",
+        especificacoes: ["Alta resistência (calor e queda)", "Conforto excepcional","Redução de danos","Qualidade superior"]
+    },
+    {
+        id: 16,
+        nome: "Piteira de Vidro Full Print",
+        preco: "R$ 7,00",
+        imagens: [
+            "https://strabeinc.com/cdn/shop/files/2023fba5039c91a4f6bbbddcd6b5ce53.png?v=1741964218&width=713",
+            "https://strabeinc.com/cdn/shop/files/96d23fc0d31099e2ccf8ac142d451023.png?v=1741964230&width=713",
+        ],
+        descricao: "Todos os detalhes dessa piteira foram pensados para deixar a sua sessão mais palosa possível!",
+        especificacoes: ["Piteiras de 6mm com 6cm de comprimento"]
+    },
+    {
+        id: 17,
+        nome: "Marica Para Cigarro",
+        preco: "R$ 7,00",
+        imagens: [
+            "https://strabeinc.com/cdn/shop/files/9e1b0104ad4c211d0f1a1ac49f023e9a.png?v=1741886899&width=713",
+            "https://strabeinc.com/cdn/shop/files/ba2e11bc89da81fa52eb9fb3d0edf4cd.png?v=1741886899&width=713",
+        ],
+        descricao: "Todos os detalhes dessa piteira foram pensados para deixar a sua sessão mais palosa possível!",
+        especificacoes: ["Piteiras de 6mm com 6cm de comprimento"]
+    }
+];
+
+// Dados das piteiras
+const piteiras = [
+    {
+        id: 10,
+        nome: "Piteira Papelito Tropical Large",
+        preco: "R$ 7,00",
+        imagem: "https://images.tcdn.com.br/img/img_prod/1039722/piteira_papelito_tropical_large_c_50_uni_3105_1_e176f792abbeb5ef5c6f820e305d2a6d.jpg",
+        tipo: "papel"
+    },
+    {
+        id: 11,
+        nome: "Piteira de Vidro Simples 5cm",
+        preco: "R$ 9,00",
+        imagem: "https://strabeinc.com/cdn/shop/files/fe1c6061d40665c78b5de23853676a09.png?v=1738611189&width=713",
+        tipo: "vidro"
+    },
+    {
+        id: 12,
+        nome: "Piteira de Vidro Simples 7cm",
+        preco: "R$ 11,00",
+        imagem: "https://strabeinc.com/cdn/shop/files/b273eb75594277cde7f5d99a79177663.png?v=1738611331&width=713",
+        tipo: "vidro"
+    },
+    {
+        id: 13,
+        nome: "Piteira de Vidro com Esferas",
+        preco: "R$ 17,00",
+        imagem: "https://strabeinc.com/cdn/shop/files/f84bfefea78fcde725a0cdf62e8dc6ea.png?v=1738609043&width=713",
+        tipo: "vidro"
+    },
+    {
+        id: 14,
+        nome: "Piteira de Vidro Extra Longa",
+        preco: "R$ 16,00",
+        imagem: "https://strabeinc.com/cdn/shop/files/c92f5ca60e0aa2811a9c37be82999834.png?v=1738609247&width=713",
+        tipo: "vidro"
+    },
+    {
+        id: 15,
+        nome: "Piteira de Vidro Bocal Implosion",
+        preco: "R$ 50,00",
+        imagem: "https://strabeinc.com/cdn/shop/files/7f75e6e42fb2be9345793b7f9aedffaa.png?v=1741969158&width=713",
+        tipo: "vidro"
+    },
+    {
+        id: 16,
+        nome: "Piteira de Vidro Full Print",
+        preco: "R$ 22,00",
+        imagem: "https://strabeinc.com/cdn/shop/files/2023fba5039c91a4f6bbbddcd6b5ce53.png?v=1741964218&width=713",
+        tipo: "vidro"
+    },
+    {
+        id: 17,
+        nome: "Marica Para Cigarro",
+        preco: "R$ 7,00",
+        imagem: "https://strabeinc.com/cdn/shop/files/9e1b0104ad4c211d0f1a1ac49f023e9a.png?v=1741886899&width=713",
+        tipo: "vidro"
     }
 ];
 
 // Função para criar o card de produto
 function criarCardProduto(produto) {
+    // Verifica se é um produto do array principal ou do array de piteiras
+    const imagem = produto.imagens ? produto.imagens[0] : produto.imagem;
+    
+    // Conteúdo do card
+    const conteudo = `
+        <div class="produto-imagem">
+            <img src="${imagem}" alt="${produto.nome}">
+        </div>
+        <div class="produto-info">
+            <h3>${produto.nome}</h3>
+            <p class="produto-preco">${produto.preco}</p>
+        </div>
+    `;
+
+    // Sempre adiciona o link para detalhes, mas mantém o data-tipo para filtros
     return `
-        <div class="produto-card">
+        <div class="produto-card" ${produto.tipo ? `data-tipo="${produto.tipo}"` : ''}>
             <a href="produto-detalhes.html?id=${produto.id}">
-                <div class="produto-imagem">
-                    <img src="${produto.imagens[0]}" alt="${produto.nome}">
-                </div>
-                <div class="produto-info">
-                    <h3>${produto.nome}</h3>
-                    <p class="produto-preco">${produto.preco}</p>
-                </div>
+                ${conteudo}
             </a>
         </div>
     `;
 }
 
-// Função para renderizar os produtos
-function renderizarProdutos() {
-    const produtosGrid = document.querySelector('.produtos-grid');
-    produtosGrid.innerHTML = produtos.map(criarCardProduto).join('');
+// Função para mostrar os produtos filtrados na página de piteiras
+function mostrarProdutos(filtro = 'todas') {
+    const gridProdutos = document.querySelector('.produtos-grid');
+    let produtosFiltrados = piteiras;
+
+    if (filtro !== 'todas') {
+        produtosFiltrados = piteiras.filter(produto => produto.tipo === filtro);
+    }
+
+    gridProdutos.innerHTML = produtosFiltrados.map(criarCardProduto).join('');
 }
 
-// Renderizar produtos quando a página carregar
-document.addEventListener('DOMContentLoaded', renderizarProdutos); 
+// Função para mostrar todos os produtos na página inicial
+function mostrarProdutosInicio() {
+    const produtosGrid = document.querySelector('.produtos-grid');
+    if (produtosGrid) {
+        produtosGrid.innerHTML = produtos.map(criarCardProduto).join('');
+    }
+}
+
+// Função para inicializar os eventos de filtro
+function inicializarFiltros() {
+    const botoesFiltro = document.querySelectorAll('.filtro-btn');
+    
+    botoesFiltro.forEach(botao => {
+        botao.addEventListener('click', () => {
+            // Remove a classe ativo de todos os botões
+            botoesFiltro.forEach(b => b.classList.remove('ativo'));
+            
+            // Adiciona a classe ativo ao botão clicado
+            botao.classList.add('ativo');
+            
+            // Obtém o filtro do texto do botão
+            const filtro = botao.textContent.toLowerCase();
+            
+            // Mostra os produtos filtrados
+            mostrarProdutos(filtro === 'todas' ? 'todas' : filtro);
+        });
+    });
+}
+
+// Inicializa a página
+document.addEventListener('DOMContentLoaded', () => {
+    // Verifica em qual página estamos
+    const isPaginaPiteiras = window.location.pathname.includes('piteiras.html');
+    
+    if (isPaginaPiteiras) {
+        // Se estiver na página de piteiras, inicializa os filtros
+        mostrarProdutos();
+        inicializarFiltros();
+    } else {
+        // Se estiver na página inicial, mostra todos os produtos
+        mostrarProdutosInicio();
+    }
+}); 
