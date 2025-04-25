@@ -204,65 +204,7 @@ const produtos = [
     }
 ];
 
-// Dados das piteiras
-const piteiras = [
-    {
-        id: 10,
-        nome: "Piteira Papelito Tropical Large",
-        preco: "R$ 7,00",
-        imagem: "https://images.tcdn.com.br/img/img_prod/1039722/piteira_papelito_tropical_large_c_50_uni_3105_1_e176f792abbeb5ef5c6f820e305d2a6d.jpg",
-        tipo: "papel"
-    },
-    {
-        id: 11,
-        nome: "Piteira de Vidro Simples 5cm",
-        preco: "R$ 9,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/fe1c6061d40665c78b5de23853676a09.png?v=1738611189&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 12,
-        nome: "Piteira de Vidro Simples 7cm",
-        preco: "R$ 11,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/b273eb75594277cde7f5d99a79177663.png?v=1738611331&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 13,
-        nome: "Piteira de Vidro com Esferas",
-        preco: "R$ 17,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/f84bfefea78fcde725a0cdf62e8dc6ea.png?v=1738609043&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 14,
-        nome: "Piteira de Vidro Extra Longa",
-        preco: "R$ 16,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/c92f5ca60e0aa2811a9c37be82999834.png?v=1738609247&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 15,
-        nome: "Piteira de Vidro Bocal Implosion",
-        preco: "R$ 50,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/7f75e6e42fb2be9345793b7f9aedffaa.png?v=1741969158&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 16,
-        nome: "Piteira de Vidro Full Print",
-        preco: "R$ 22,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/2023fba5039c91a4f6bbbddcd6b5ce53.png?v=1741964218&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 17,
-        nome: "Marica Para Cigarro",
-        preco: "R$ 7,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/9e1b0104ad4c211d0f1a1ac49f023e9a.png?v=1741886899&width=713",
-        tipo: "vidro"
-    }
-];
+
 
 // Função para criar o card de produto
 function criarCardProduto(produto) {
@@ -290,17 +232,7 @@ function criarCardProduto(produto) {
     `;
 }
 
-// Função para mostrar os produtos filtrados na página de piteiras
-function mostrarProdutos(filtro = 'todas') {
-    const gridProdutos = document.querySelector('.produtos-grid');
-    let produtosFiltrados = piteiras;
 
-    if (filtro !== 'todas') {
-        produtosFiltrados = piteiras.filter(produto => produto.tipo === filtro);
-    }
-
-    gridProdutos.innerHTML = produtosFiltrados.map(criarCardProduto).join('');
-}
 
 // Função para mostrar todos os produtos na página inicial
 function mostrarProdutosInicio() {
@@ -310,26 +242,7 @@ function mostrarProdutosInicio() {
     }
 }
 
-// Função para inicializar os eventos de filtro
-function inicializarFiltros() {
-    const botoesFiltro = document.querySelectorAll('.filtro-btn');
-    
-    botoesFiltro.forEach(botao => {
-        botao.addEventListener('click', () => {
-            // Remove a classe ativo de todos os botões
-            botoesFiltro.forEach(b => b.classList.remove('ativo'));
-            
-            // Adiciona a classe ativo ao botão clicado
-            botao.classList.add('ativo');
-            
-            // Obtém o filtro do texto do botão
-            const filtro = botao.textContent.toLowerCase();
-            
-            // Mostra os produtos filtrados
-            mostrarProdutos(filtro === 'todas' ? 'todas' : filtro);
-        });
-    });
-}
+
 
 // Inicializa a página
 document.addEventListener('DOMContentLoaded', () => {

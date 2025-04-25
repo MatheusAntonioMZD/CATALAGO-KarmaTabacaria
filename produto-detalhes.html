@@ -11,6 +11,8 @@
 <body>
     <header>
         <nav>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
             <div class="logo">
                 <h1>Karma Tabacaria</h1>
             </div>
@@ -81,7 +83,12 @@
             <p>&copy; 2024 Karma Tabacaria. Todos os direitos reservados.</p>
         </div>
     </footer>
-
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+    
     <script src="produto-detalhes.js"></script>
 </body>
 </html> 

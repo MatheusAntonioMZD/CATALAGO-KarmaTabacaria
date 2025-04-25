@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karma - Coleção de Piteiras</title>
+    <title>Karma - Coleção</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -110,6 +110,9 @@
             .produtos-grid {
                 grid-template-columns: 1fr;
             }
+            .produtos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
             
             .filtros {
                 flex-wrap: wrap;
@@ -121,6 +124,8 @@
 <body>
     <header>
         <nav>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
             <div class="logo">
                 <h1>Karma Tabacaria</h1>
             </div>
@@ -135,44 +140,56 @@
 
     <main>
         <a href="index.html" class="voltar-btn"><i class="fas fa-arrow-left"></i> Voltar</a>
-        
+      
         <div class="produtos-titulo">
-            <h1>Coleção de Piteiras</h1>
+          <h1>Coleção</h1>
         </div>
-
-        <div class="filtros">
-            <button class="filtro-btn ativo">Todas</button>
-            <button class="filtro-btn">Vidro</button>
-            <button class="filtro-btn">Papel</button>
-        </div>
-
+      
         <section class="produtos">
-            <div class="produtos-grid">
-                <!-- Os produtos serão inseridos dinamicamente via JavaScript -->
-            </div>
+          <h2 style="text-align:center; margin-top:2rem;">Piteiras Selecionados</h2>
+          <div class="produtos-grid" id="kits-container">
+            <!-- Os produtos serão carregados via JS -->
+          </div>
         </section>
-    </main>
+      </main>
+      
 
-    <footer id="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Contato</h3>
-                <p><i class="fas fa-phone"></i> (XX) XXXX-XXXX</p>
-                <p><i class="fas fa-envelope"></i> contato@karmatabacaria.com</p>
-            </div>
-            <div class="footer-section">
-                <h3>Redes Sociais</h3>
-                <div class="social-links">
-                    <a href="https://www.instagram.com/tabacariakarma/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://wa.link/1t4v4n"><i class="fab fa-whatsapp"></i></a>
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-phone"></i> (XX) XXXX-XXXX</p>
+                    <p><i class="fas fa-envelope"></i> contato@karmatabacaria.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/tabacariakarma/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.link/1t4v4n"><i class="fab fa-whatsapp"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Karma Tabacaria. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html> 
+            <div class="footer-bottom">
+                <p>&copy; 2024 Karma Tabacaria. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        <script>
+            document.querySelector('.menu-toggle').addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.toggle('active');
+            });
+        </script>
+        <script src="script.js"></script>
+        <script>
+          const kitsSelecionados = [10, 11, 12, 13, 14, 15, 16, 17]; // Altere os IDs conforme necessário
+      
+          function mostrarKits() {
+            const container = document.getElementById('kits-container');
+            const selecionados = produtos.filter(p => kitsSelecionados.includes(p.id));
+            container.innerHTML = selecionados.map(criarCardProduto).join('');
+          }
+      
+          document.addEventListener('DOMContentLoaded', mostrarKits);
+        </script>
+        
+    </body>
+    </html> 

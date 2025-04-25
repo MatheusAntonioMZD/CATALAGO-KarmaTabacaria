@@ -166,3 +166,14 @@
     margin: 1rem;
     transition: background-color 0.3s ease;
 }
+
+@media (max-width: 480px) {
+    .voltar-btn {
+        display: block;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    .produtos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
