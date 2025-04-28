@@ -571,4 +571,68 @@ grid-template-columns: repeat(2, 1fr);
         padding: 0.2rem;
     }
 }
+.hero {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px; /* Usa min-height para adaptar melhor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+/* Opcional: deixar o fundo levemente escuro para destacar o texto */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); /* camada preta transparente */
+    z-index: 1;
+}
+
+/* Garante que o texto fique acima da camada escura */
+.hero h2,
+.hero p {
+    position: relative;
+    z-index: 1;
+}
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 300px;
+        padding: 15px;
+    }
+    
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        min-height: 250px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+}
 
