@@ -3,7 +3,7 @@ const produtos = [
     {
         id: 1,
         nome: "Seda Papelito King Size Tradicional c/36",
-        preco: "R$ 5,00",
+        preco: "R$ 5,50",
         imagens: [
             "https://papelitobrasil.com/wp-content/uploads/2022/03/Papelito-Tradicional-KS-03.png.webp",
             "https://images.tcdn.com.br/img/img_prod/767482/seda_papelito_tradicional_king_size_livreto_c_36_sedas_549_3_028f66bcabcba0aeb3b9f173fb8db653.jpg",
@@ -27,7 +27,7 @@ const produtos = [
     {
         id: 3,
         nome: "Seda Papelito Tradicional King Size Longa",
-        preco: "R$ 7,00",
+        preco: "R$ 9,50",
         imagens: [
             "https://images.tcdn.com.br/img/img_prod/952861/seda_papelito_tradicional_king_size_longa_un_25118_1_e6bc3f7de674c7012a0788a917f604e3.jpg",
             "https://tiobob.fbitsstatic.net/img/p/papel-papelito-longa-tradicional-126529/324564-2.jpg?w=425&h=425&v=202501231557&qs=ignore"
@@ -38,7 +38,7 @@ const produtos = [
     {
         id: 4,
         nome: "Cuia de Silicone ToNaBê - Consulte as Cores Disponiveis",
-        preco: "R$ 20,00",
+        preco: "R$ 21,90",
         imagens: [
             "https://images.tcdn.com.br/img/img_prod/1255916/cuia_de_silicone_tonabe_1847_1_f643e074991b4e0a39925386dd9d9e21.png",
             "https://images.tcdn.com.br/img/img_prod/1255916/cuia_de_silicone_tonabe_1847_6_a94970b9c24afe90f6bc0d698cb3c066.png",
@@ -66,7 +66,7 @@ const produtos = [
     {
         id: 6,
         nome: "Tesoura Abduzido Classic Carbon",
-        preco: "R$ 15,00",
+        preco: "R$ 16,50",
         imagens: [
             "https://tiobob.vteximg.com.br/arquivos/ids/193045/Tesoura-Abduzido-Classic-Carbon-Black-32275-1.jpg?v=638418861790730000",
             "https://tiobob.vteximg.com.br/arquivos/ids/193044/Tesoura-Abduzido-Classic-Carbon-Black-32275.jpg?v=638418861690300000"
@@ -77,7 +77,7 @@ const produtos = [
     {
         id: 7,
         nome: "Cinzeiro de Metal - Modelos Variados Disponiveis",
-        preco: "R$ 35,00",
+        preco: "R$ 23,00",
         imagens: [
             "https://tiobob.vteximg.com.br/arquivos/ids/194960/Cinzeiro-de-Metal-Papelito-Quatro-Elementos-Azul-33768.jpg?v=638550237882900000",
             "https://tiobob.vteximg.com.br/arquivos/ids/198809/Cinzeiro%20de%20Metal%20Abduzido%20Festa%20do%20Verde%20Unidade%2035790.jpg.jpg?v=638803332282800000",
@@ -86,10 +86,11 @@ const produtos = [
         descricao: "Cinzeiro de Metal Papelito Quatro Elementos, disponível em diversos modelos.",
         especificacoes: ["Metal", "Diversos modelos disponíveis"]
     },
+  
     {
         id: 8,
         nome: "Seda para Cigarro Blunt",
-        preco: "R$ 15,00",
+        preco: "R$ 17,00",
         imagens: [
             "https://tiobob.vteximg.com.br/arquivos/ids/196387/Papel-para-Cigarro-Blunt-Hemp-Wrap-Lion-Rolling-Circus-Terpenes-KKSH-Unidade-29320.jpg?v=638622802601300000",
             "https://tiobob.vteximg.com.br/arquivos/ids/196387/Papel-para-Cigarro-Blunt-Hemp-Wrap-Lion-Rolling-Circus-Terpenes-KKSH-Unidade-29320.jpg?v=638622802601300000"
@@ -100,7 +101,7 @@ const produtos = [
     {
         id: 9,
         nome: "Desfiador de Policarbonato Pequeno Sadhu",
-        preco: "R$ 25,00",
+        preco: "R$ 13,90",
         imagens: [
             "https://tiobob.vteximg.com.br/arquivos/ids/197927/Desfiador%20de%20Policarbonato%20Grande%20Sadhu%20Preto%2035609-1.jpg.jpg?v=638779269887130000",
             "https://tiobob.vteximg.com.br/arquivos/ids/197927/Desfiador%20de%20Policarbonato%20Grande%20Sadhu%20Preto%2035609-1.jpg.jpg?v=638779269887130000"
@@ -111,12 +112,12 @@ const produtos = [
     {
         id: 10,
         nome: "Piteira Papelito Tropical Large",
-        preco: "R$ 7,00",
+        preco: "R$ 5,00",
         imagens: [
             "https://images.tcdn.com.br/img/img_prod/1039722/piteira_papelito_tropical_large_c_50_uni_3105_1_e176f792abbeb5ef5c6f820e305d2a6d.jpg",
             "https://images.tcdn.com.br/img/img_prod/1039722/piteira_papelito_tropical_large_c_50_uni_3105_2_4da8b404c0856ee9d93db6dcd7115d2a.jpg"
         ],
-        descricao: "Desfiador de Policarbonato Pequeno Sadhu, prático e durável.",
+        descricao: "Piteira Papelito Large.",
         especificacoes: ["Policarbonato", "Pequeno"]
     },
     {
@@ -201,68 +202,33 @@ const produtos = [
         ],
         descricao: "Todos os detalhes dessa piteira foram pensados para deixar a sua sessão mais palosa possível!",
         especificacoes: ["Piteiras de 6mm com 6cm de comprimento"]
-    }
+    },
+    {
+        id: 18,
+        nome: "Bandeja Abduzido de Metal 20x10 Pequena",
+        preco: "R$ 23,00",
+        imagens: [
+            "https://tiobob.vteximg.com.br/arquivos/ids/193194/Bandeja-Abduzido-de-Metal-20x10-Mago-Hiponga-32568.jpg?v=638437018032100000",
+            "https://tiobob.vteximg.com.br/arquivos/ids/193195/Bandeja-Abduzido-de-Metal-20x10-Mago-Hiponga-32568-1.jpg?v=638802586612600000",
+        ],
+        
+        descricao: "A Bandeja Abduzido de Metal Mago Hiponga é um acessório importante na hora de bolar o seu cigarro, você garante que a sua mesa não fique aquela bagunça, além de evitar desperdício de seu tabaco.",
+        especificacoes: ["Tamanho   Mini", "Largura    20,5cm", "Comprimento    10,5cm"]
+    },
+    {
+        id: 19,
+        nome: "Bandeja Abduzido de Metal 29x19 Grande",
+        preco: "R$ 23,00",
+        imagens: [
+            "https://tiobob.vteximg.com.br/arquivos/ids/193194/Bandeja-Abduzido-de-Metal-20x10-Mago-Hiponga-32568.jpg?v=638437018032100000",
+            "https://tiobob.vteximg.com.br/arquivos/ids/193195/Bandeja-Abduzido-de-Metal-20x10-Mago-Hiponga-32568-1.jpg?v=638802586612600000",
+        ],
+        
+        descricao: "A Bandeja Abduzido de Metal Mago Hiponga é um acessório importante na hora de bolar o seu cigarro, você garante que a sua mesa não fique aquela bagunça, além de evitar desperdício de seu tabaco.",
+        especificacoes: ["Tamanho   Grande", "Largura    29cm", "Comprimento    19cm"]
+    },
 ];
 
-// Array de piteiras
-const piteiras = [
-    {
-        id: 10,
-        nome: "Piteira Papelito Tropical Large",
-        preco: "R$ 7,00",
-        imagem: "https://images.tcdn.com.br/img/img_prod/1039722/piteira_papelito_tropical_large_c_50_uni_3105_1_e176f792abbeb5ef5c6f820e305d2a6d.jpg",
-        tipo: "papel"
-    },
-    {
-        id: 11,
-        nome: "Piteira de Vidro Simples 5cm",
-        preco: "R$ 7,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/fe1c6061d40665c78b5de23853676a09.png?v=1738611189&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 12,
-        nome: "Piteira de Vidro Simples 7cm",
-        preco: "R$ 7,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/b273eb75594277cde7f5d99a79177663.png?v=1738611331&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 13,
-        nome: "Piteira de Vidro com Esferas",
-        preco: "R$ 7,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/f84bfefea78fcde725a0cdf62e8dc6ea.png?v=1738609043&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 14,
-        nome: "Piteira de Vidro Extra Longa",
-        preco: "R$ 7,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/c92f5ca60e0aa2811a9c37be82999834.png?v=1738609247&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 15,
-        nome: "Piteira de Vidro Bocal Implosion",
-        preco: "R$ 7,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/7f75e6e42fb2be9345793b7f9aedffaa.png?v=1741969158&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 16,
-        nome: "Piteira de Vidro Full Print",
-        preco: "R$ 7,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/2023fba5039c91a4f6bbbddcd6b5ce53.png?v=1741964218&width=713",
-        tipo: "vidro"
-    },
-    {
-        id: 17,
-        nome: "Marica Para Cigarro",
-        preco: "R$ 7,00",
-        imagem: "https://strabeinc.com/cdn/shop/files/9e1b0104ad4c211d0f1a1ac49f023e9a.png?v=1741886899&width=713",
-        tipo: "vidro"
-    }
-];
 
 // Função para obter o ID do produto da URL
 function getProdutoId() {
